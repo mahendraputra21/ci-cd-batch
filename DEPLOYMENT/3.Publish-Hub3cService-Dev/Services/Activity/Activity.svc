@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Hub3c.Service.Activity" CodeBehind="Activity.svc.cs" %>

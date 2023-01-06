@@ -1,0 +1,19 @@
+{
+  "ButtonJoin": "Join Now",
+  "ButtonSignIn": "Sign In",
+  "ConfirmEmailAddress": "Confirm Email Address",
+  "ConfirmPassword": "Confirm Password",
+  "EmailAddress": "Email Address",
+  "EmailValidation": "Email did not match",
+  "FirstName": "First Name",
+  "LastName": "Last Name",
+  "PageHeader": "Step 2 - Create Your Passport",
+  "PageTitle": "Step 2 - Create Your Passport",
+  "Password": "Password",
+  "PasswordCriteria": "(6-20 characters, at least 1 number, 1 upper case letter and 1 lower case letter)",
+  "PasswordValidation": "Password did not match",
+  "RequiredValidation": "Required",
+  "Title": "Salutation",
+  "TitleExistingMember": "Already have a passport?",
+  "TitleNewMember": "New Member?"
+}

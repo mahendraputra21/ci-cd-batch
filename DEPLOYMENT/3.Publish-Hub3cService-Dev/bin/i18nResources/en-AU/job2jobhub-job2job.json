@@ -1,0 +1,13 @@
+{
+  "ApplyJob": "has applied for a <a href=\"../../Job2Job/ProjectPost?q={0}\">job</a>, communicate further in <a onclick=\"checkAvailableLink('{0}', '{1}')\" href=\"javascript:void(0)\">message board</a>",
+  "ContractorAccept": "has approved for a <a href=\"../../Job2Job/ProjectPost?q={0}\">job</a>, communicate further in <a onclick=\"checkAvailableLink('{0}', '{1}')\" href=\"javascript:void(0)\">message board</a>",
+  "ContractorDecline": "has declined your invitation for <a href=\"../../Job2Job/ProjectPost?q={1}\">{0}</a>",
+  "ContractorHired": "has shortlisted you for a <a href=\"../../Job2Job/ProjectPost?q={0}\">Job</a>, communicate further in <a onclick=\"checkAvailableLink('{0}', '{1}')\" href=\"javascript:void(0)\">message board</a>",
+  "JobPostPaymentInfo": "*Your credit card will be charged once you publish the job. If you haven't setup card info, the job will be saved as draft and you will be redirected to payment page.",
+  "MessageSendinMessageBoard": "has sent you a new message on the <a onclick=\"checkAvailableLink('{0}', '{1}')\" href=\"javascript:void(0)\">message board</a>",
+  "PaymentSuccess": "Payment success.",
+  "ProjectCancel": "has cancel your project for {0}",
+  "ProjectPosted": ", your project has been posted, please <a href=\"../../Job2Job/Candidate?q={0}\">click this link to review</a> the top 5 contractors for your project",
+  "ProjectRejected": "has reject your proposal for project {0}",
+  "ProjectStarted": "has approved <a href=\"../../Project/ProjectDetail?encProjectID={0}\">your job</a> and the job is started."
+}

@@ -1,0 +1,14 @@
+{
+  "CreateNewBusiness": "Create New business hub3c Account",
+  "CreateNewNetwork": "Create New Network Account",
+  "Email": "Email",
+  "ForgotPassword": "Forgot Password?",
+  "ForgotPassword2": "I forgot my password",
+  "InvalidNetworkPlanID": "Invalid Network Plan ID",
+  "Password": "Password",
+  "ResetPassword": "You have requested password reset. Please, set up your new password.",
+  "ResetPasswordRequiredMessage": "Password must contain at least 6 characters, 1 letter and 1 number.",
+  "SetupPassword": "Please, set up your new password.",
+  "Title": "Log In",
+  "UserName": "Email Address"
+}

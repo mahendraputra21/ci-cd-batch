@@ -1,6 +1,7 @@
 @echo off
 setlocal enableextensions enabledelayedexpansion
 set "vs_type=Professional"
+set "config=Staging"
 set "msbuild_path=c:\Program Files (x86)\Microsoft Visual Studio\2017\%vs_type%\MSBuild\15.0\Bin"
 set "source_path=D:\project-hub3c\SignalRHost\bin\Staging"
 set "sln_path=D:\project-hub3c\Hub3c.2017.sln"
@@ -16,7 +17,7 @@ echo Publishing %1 on vm-mentifi-development...
 cd /d %msbuild_path%
 echo Running .NET Framework Build and Publish...
 echo:
-msbuild %sln_path% /t:Hub3cSignalRHost /p:Configuration=Staging /p:Platform="Any CPU"
+msbuild %sln_path% /t:Hub3cSignalRHost /p:Configuration=%config% /p:Platform="Any CPU"
 echo:
 
 echo Copying file from %source_path% to %destination_path%

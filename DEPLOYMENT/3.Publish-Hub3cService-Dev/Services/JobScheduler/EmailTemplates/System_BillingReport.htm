@@ -1,0 +1,124 @@
+﻿<html>
+<head>
+    <title>Hub3C Billing Report</title>
+</head>
+<body style="font-family: arial; font-size: 11px; color: #696969; background-color: #FFF;">
+    <h1>Hub3C Billing Report</h1>
+
+    [if HasPaymentWithInconsistentAmount]
+    <div>
+        <h2>Payment with inconsistent amount</h2>
+        <table style="border: 1px solid #E6E6E7;">
+            <thead style="background-color: #1F497D; color: #FFF;">
+                <tr>
+                    <th style="padding: 5px;">Stripe Payment Log ID</th>
+                    <th style="padding: 5px;">Created Date</th>
+                    <th style="padding: 5px;">Business ID</th>
+                    <th style="padding: 5px;">Business Name</th>
+                    <th style="padding: 5px;">Charged Amount</th>
+                    <th style="padding: 5px;">Sum History Amount</th>
+                    <th style="padding: 5px;">Currency</th>
+                    <th style="padding: 5px;">Status</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid #E6E6E7;">
+                [foreach PaymentWithInconsistentAmounts]
+                <tr>
+                    <td style="padding: 5px;">[StripePaymentLogId]</td>
+                    <td style="padding: 5px;">[CreatedDate]</td>
+                    <td style="padding: 5px;">[BusinessId]</td>
+                    <td style="padding: 5px;">[BusinessName]</td>
+                    <td style="padding: 5px;">[ChargedAmount]</td>
+                    <td style="padding: 5px;">[SumAmount]</td>
+                    <td style="padding: 5px;">[Currency]</td>
+                    <td style="padding: 5px;">[Status]</td>
+                </tr>
+                [end]
+            </tbody>
+        </table>
+    </div>
+    [end]
+
+    [if HasOccurencePayment]
+    <div>
+        <h2>Occurence payment</h2>
+        <table style="border: 1px solid #E6E6E7;">
+            <thead style="background-color: #1F497D; color: #FFF;">
+                <tr>
+                    <th style="padding: 5px;">Stripe Payment Log ID</th>
+                    <th style="padding: 5px;">Created Date</th>
+                    <th style="padding: 5px;">Business ID</th>
+                    <th style="padding: 5px;">Business Name</th>
+                    <th style="padding: 5px;">Amount</th>
+                    <th style="padding: 5px;">Currency</th>
+                    <th style="padding: 5px;">Status</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid #E6E6E7;">
+                [foreach OccurencePayments]
+                <tr>
+                    <td style="padding: 5px;">[StripePaymentLogId]</td>
+                    <td style="padding: 5px;">[CreatedDate]</td>
+                    <td style="padding: 5px;">[BusinessId]</td>
+                    <td style="padding: 5px;">[BusinessName]</td>
+                    <td style="padding: 5px;">[Amount]</td>
+                    <td style="padding: 5px;">[Currency]</td>
+                    <td style="padding: 5px;">[Status]</td>
+                </tr>
+                [end]
+            </tbody>
+        </table>
+    </div>
+    [end]
+
+    [if HasRechargedModule]
+    <div>
+        <h2>Recharged module on occurence payment</h2>
+        <table style="border: 1px solid #E6E6E7;">
+            <thead style="background-color: #1F497D; color: #FFF;">
+                <tr>
+                    <th style="padding: 5px;">Stripe Payment Log ID</th>
+                    <th style="padding: 5px;">Created Date</th>
+                    <th style="padding: 5px;">Payment History ID</th>
+                    <th style="padding: 5px;">Business ID</th>
+                    <th style="padding: 5px;">Business Name</th>
+                    <th style="padding: 5px;">Is Storage</th>
+                    <th style="padding: 5px;">Entity ID</th>
+                    <th style="padding: 5px;">Entity Name</th>
+                    <th style="padding: 5px;">System User ID</th>
+                    <th style="padding: 5px;">User Name</th>
+                    <th style="padding: 5px;">User Email</th>
+                    <th style="padding: 5px;">Amount</th>
+                    <th style="padding: 5px;">Currency</th>
+                    <th style="padding: 5px;">Status</th>
+                </tr>
+            </thead>
+            <tbody style="border: 1px solid #E6E6E7;">
+                [foreach RechargedModules]
+                <tr>
+                    <td style="padding: 5px;">[StripePaymentLogId]</td>
+                    <td style="padding: 5px;">[CreatedDate]</td>
+                    <td style="padding: 5px;">[PaymentHistoryId]</td>
+                    <td style="padding: 5px;">[BusinessId]</td>
+                    <td style="padding: 5px;">[BusinessName]</td>
+                    <td style="padding: 5px;">[IsStorage]</td>
+                    <td style="padding: 5px;">[EntityId]</td>
+                    <td style="padding: 5px;">[EntityName]</td>
+                    <td style="padding: 5px;">[SystemUserId]</td>
+                    <td style="padding: 5px;">[UserName]</td>
+                    <td style="padding: 5px;">[UserEmail]</td>
+                    <td style="padding: 5px;">[Amount]</td>
+                    <td style="padding: 5px;">[Currency]</td>
+                    <td style="padding: 5px;">[Status]</td>
+                </tr>
+                [end]
+            </tbody>
+        </table>
+    </div>
+    [end]
+
+    <div style="margin-top: 15px;">
+        <h3>Report generated at: [GeneratedDate]</h3>
+    </div>
+</body>
+</html>

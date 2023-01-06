@@ -1,0 +1,22 @@
+{
+  "BusinessHub_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "BusinessHub_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "Drake_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "Drake_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "GameChanger_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "GameChanger_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "iPaaS_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "iPaaS_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "Job2Job_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "Job2Job_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "Mediasphere_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "Mediasphere_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "Mentifi_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "Mentifi_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "MentifiSports_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "MentifiSports_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "SampleHub_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "SampleHub_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting",
+  "T3Partners_Message_MeetingCompleted": "Sorry, you cannot start a meeting that already completed or cancelled",
+  "T3Partners_Message_StartMeetingNotAllowed": "Sorry, only Meeting Organiser can start the meeting"
+}
